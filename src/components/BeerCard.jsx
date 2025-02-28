@@ -1,5 +1,4 @@
 function BeerCard({ beer }) {
-  // Use a placeholder image if the beer image is missing or invalid
   const fallbackImage = "https://via.placeholder.com/150x200?text=No+Image";
 
   const handleImageError = (e) => {

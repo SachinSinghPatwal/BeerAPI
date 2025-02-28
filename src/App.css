@@ -33,8 +33,6 @@ h1 {
   font-size: 1.2rem;
   color: #7f8c8d;
 }
-
-/* Search Bar Styles */
 .search-container {
   margin-bottom: 2rem;
   display: flex;
@@ -70,14 +68,11 @@ h1 {
   background-color: #535bf2;
 }
 
-/* Beer Grid Styles */
 .beer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
 }
-
-/* Beer Card Styles */
 .beer-card {
   background-color: #fff;
   border-radius: 8px;
@@ -135,8 +130,6 @@ h1 {
   color: #f39c12;
   font-weight: 500;
 }
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .beer-grid {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
